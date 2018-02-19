@@ -1,11 +1,13 @@
-# HABpanel Weather Underground widget
+# Weather Underground widget for HABpanel (Openhab)
 
 ## Description
 Openhab / HABpanel widget for Weather Underground.
 
+You must use the Weather Underground binding SNAPSHOT-2.3.0 minimum build #1212, otherwise the iconKey binding will not work.
+
 ## Installation
-- Install the Weather Underground binding
-- Configure the Thing: Local Weather (You can set the language)
+- Install the Weather Underground binding via PaperUI.
+- Configure the Thing: Local Weather (You can set your preferred language)
 - Import the downloaded widget to your HABpanel
 - Place the complete weather-underground-icons icon set somewhere within your /conf/html folder structure.
 - Adjust this path in the widget.
@@ -14,4 +16,4 @@ Openhab / HABpanel widget for Weather Underground.
 ## Help
 If you need any help, use this [topic](https://community.openhab.org/t/weather-underground-widget-with-forecast/40260) on the Openhab community forum.
 
-For issues and feature requests, please use the Issues module op Github.
+For issues and feature requests, please use the [Issues module](https://github.com/BasvanH/habpanel-widget-weatherunderground/issues) op Github.
