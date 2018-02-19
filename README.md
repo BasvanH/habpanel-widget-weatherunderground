@@ -8,7 +8,7 @@ Weather Underground widget for HABpanel (Openhab). You must use the Weather Unde
 - Configure the Thing: Local Weather (You can set your preferred language)
 - Import the downloaded widget to your HABpanel
 - Place the complete weather-underground-icons icon set somewhere within your /conf/html folder structure.
-- Adjust this path in the widget.
+- Set the 'ServerPath' variable in the widget to this path.
 - Place the three .png images in your /conf/html/\<weather-underground-icons\>/dist/images folder.
 
 ## Help
