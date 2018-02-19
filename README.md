@@ -1,9 +1,7 @@
 # Weather Underground widget for HABpanel (Openhab)
 
 ## Description
-Openhab / HABpanel widget for Weather Underground.
-
-You must use the Weather Underground binding SNAPSHOT-2.3.0 minimum build #1212, otherwise the iconKey binding will not work.
+Weather Underground widget for HABpanel (Openhab). You must use the Weather Underground binding SNAPSHOT-2.3.0 minimum build #1212, otherwise the iconKey binding will not work.
 
 ## Installation
 - Install the Weather Underground binding via PaperUI.
