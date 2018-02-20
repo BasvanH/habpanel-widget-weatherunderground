@@ -15,14 +15,14 @@ Weather Underground widget for HABpanel (Openhab). You must use the Weather Unde
 The complete structure would look like this:
 
 - /conf/html
-  - weather-underground-icons
-    - css
-    - js
-    - dist
+  - /weather-underground-icons
+    - /css
+    - /js
+    - /dist
       - wu-icons-style.css
       - wu-icons-style.min.css
-      - icons <= this is where the different icon theme’s are stored
-      - images
+      - /icons <= this is where the different icon theme’s are stored
+      - /images
         - feel.png
         - humidity.png
         - wind.png
