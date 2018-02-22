@@ -3,6 +3,11 @@
 ## Description
 Weather Underground widget for HABpanel (Openhab). You must use the Weather Underground binding SNAPSHOT-2.3.0 minimum build #1212, otherwise the iconKey binding will not work.
 
+## Download
+**The widget and images**: [weather-underground.widget.json](https://github.com/BasvanH/habpanel-widget-weatherunderground)
+
+**Weather Underground icons**: [weather-underground-icons](https://www.npmjs.com/package/weather-underground-icons)
+
 ## Installation
 - Install the [Weather Underground](https://docs.openhab.org/addons/bindings/weatherunderground/readme.html) binding via PaperUI.
 - Configure the Thing: Local Weather (You can set your preferred language).
