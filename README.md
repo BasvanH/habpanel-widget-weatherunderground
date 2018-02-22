@@ -4,10 +4,11 @@
 Weather Underground widget for HABpanel (Openhab). You must use the Weather Underground binding SNAPSHOT-2.3.0 minimum build #1212, otherwise the iconKey binding will not work.
 
 ## Installation
-- Install the Weather Underground binding via PaperUI.
-- Configure the Thing: Local Weather (You can set your preferred language)
-- Import the downloaded widget to your HABpanel
-- Download weather-underground-icons repository from [here](https://github.com/manifestinteractive/weather-underground-icons)
+- Install the [Weather Underground](https://docs.openhab.org/addons/bindings/weatherunderground/readme.html) binding via PaperUI.
+- Configure the Thing: Local Weather (You can set your preferred language).
+- If you havent done already, change your locality of Openhab in Paperui / Configuration / System / Regional Settings and restart Openhab and clear your browsers cache. This way the Widget will follow te locallity with transforming the dates.
+- Import the downloaded widget to your HABpanel.
+- Download weather-underground-icons repository from [here](https://github.com/manifestinteractive/weather-underground-icons).
 - The 'weather-underground-icons' folder should be stored in your '/conf/html/' folder.
 - Set the 'ServerPath' variable in the widget to '/static/weather-underground-icons-master/dist' (default).
 - Place the three .png images in your '/conf/html/weather-underground-icons/dist/images' folder.
